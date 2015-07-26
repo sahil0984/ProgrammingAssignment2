@@ -40,7 +40,6 @@ makeCacheMatrix <- function(x = matrix()) {
   list(set = set, get = get, setInv = setInv, getInv = getInv)
 }
 
-
 ## ****cacheSolve****: This function tries to retrieve the inverse of the matrix, using the special matrix 
 ## object created with makeCacheMatrix, from the cache and if it cannot find it in the cache then it 
 ## computes the inverse and returns it.
